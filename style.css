@@ -1,0 +1,12 @@
+/* Styling för elementet med id "subjectList", alltså vår lista */
+
+#subjectList {
+  margin-top: 20px;      /* Lägger till 20 pixlars mellanrum ovanför listan */
+  padding-left: 20px;    /* Indrag från vänster så listpunkterna inte sitter klistrade mot kanten */
+}
+
+/* Styling för varje listpunkt (<li>) inom "subjectList" */
+
+#subjectList li {
+  margin-bottom: 5px;    /* Ger 5 pixlars avstånd under varje listpunkt så de inte klibbar ihop */
+}

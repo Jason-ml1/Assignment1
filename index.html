@@ -1,28 +1,52 @@
 <!DOCTYPE html>
-<html lang="en">
+<!-- Detta talar om för webbläsaren att det är en HTML5-sida -->
+
+<html lang="sv">
+<!-- Början på HTML-dokumentet, språket är svenska -->
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Assignment 1</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <!-- Anger teckenkodningen så svenska tecken (å, ä, ö) fungerar korrekt -->
+
+  <title>Min Hemsida!</title>
+  <!-- Titeln som visas i webbläsarens flik -->
+
+  <link rel="stylesheet" href="style.css">
+  <!-- Länkar till en extern CSS-fil som styr utseendet på sidan -->
 </head>
+
 <body>
-<header>
-  <h1>Welcome to My Web Page</h1>
-</header>
+<!-- Här börjar innehållet som syns på sidan -->
 
-<main>
-  <p id="mainText">This is the main content of the page.</p>
-  <button id="changeTextButton">Change Text</button>
-  <button id="showTimeButton">Show Current Time</button>
-  <div id="timeDisplay"></div>
-  <ul id="itemList"></ul>
-</main>
+<h1>Min Hemsida!</h1>
+<!-- Stor rubrik längst upp på sidan -->
 
-<footer>
-  <p>&copy; 2025 My Website</p>
-</footer>
+<p id="text">Det här är ursprunglig text.</p>
+<!-- Ett stycke text med ett ID så det kan ändras med JavaScript -->
+
+<button id="changeBtn">Ändra text</button>
+<!-- Knapp som användaren klickar på för att ändra texten ovan -->
+
+<br><br>
+<!-- Skapar lite mellanrum -->
+
+<button id="timeBtn">Visa tid</button>
+<!-- Knapp som visar den aktuella tiden när man klickar -->
+
+<p id="time"></p>
+<!-- Här visas tiden när man klickar på knappen ovan -->
+
+<br><br>
+<!-- Mer mellanrum -->
+
+<button id="showListBtn">Visa mina favoritämnen</button>
+<!-- Knapp som visar en lista på favoritämnen när man klickar -->
+
+<ul id="subjectList"></ul>
+<!-- En tom lista som JavaScript fyller med ämnen -->
 
 <script src="app.js"></script>
+<!-- Länkar till JavaScript-filen som sköter funktionerna på sidan -->
+
 </body>
 </html>
